@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    text-decoration: none;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #211425;
+    text-decoration: none;
 }
 .box{
     width: 300px;
@@ -55,4 +59,24 @@ body{
 
 .box input[type="submit"]:hover{
     background: #c51277;
+}
+button{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #c51277;
+    padding: 14px 38px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #c51277;
+    text-decoration: none;
 }
